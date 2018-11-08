@@ -2,10 +2,13 @@
 
 # Requirements
 
-Make a Node.js app that depends on user input from the command line
-Integrate Bands In Town, Spotify, and OMDb APIs via the appropriate NPM modules
-Use API calls and parse through returned JSON objects, outputting them in a specified format
-Read commands and queries from file
+1. Make a Node.js app that depends on user input from the command line.
+
+2. Integrate Bands In Town, Spotify, and OMDb APIs via the appropriate NPM modules.
+
+3. Use API calls and parse through returned JSON objects, outputting them in a specified format.
+
+4. Read commands and queries from file
 
 # Databases Acquired
 
