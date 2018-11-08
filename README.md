@@ -27,3 +27,21 @@ The program also reads from a file called "random.text" and executes the command
 
 # Screenshots
 
+Concert This:
+<img width="1103" alt="screen shot 2018-11-08 at 1 55 22 pm" src="https://user-images.githubusercontent.com/40375692/48224241-c8cb5580-e35e-11e8-8905-724d71b7f35b.png">
+
+Spotify This Song:
+<img width="1090" alt="screen shot 2018-11-08 at 2 10 08 pm" src="https://user-images.githubusercontent.com/40375692/48224650-13999d00-e360-11e8-980e-53c5ab71e70a.png">
+
+Movie This:
+<img width="1086" alt="screen shot 2018-11-08 at 2 21 54 pm" src="https://user-images.githubusercontent.com/40375692/48225185-b7377d00-e361-11e8-80e3-20eeea7593fb.png">
+
+Do What It Says:
+(spotify)
+<img width="1089" alt="screen shot 2018-11-08 at 2 24 53 pm" src="https://user-images.githubusercontent.com/40375692/48225357-28773000-e362-11e8-8e2f-6644238ac9f3.png">
+
+(movie-this)
+<img width="1088" alt="screen shot 2018-11-08 at 2 28 55 pm" src="https://user-images.githubusercontent.com/40375692/48225522-a89d9580-e362-11e8-90a7-508aeb01fcba.png">
+
+(concert-this)
+<img width="1096" alt="screen shot 2018-11-08 at 2 32 11 pm" src="https://user-images.githubusercontent.com/40375692/48225689-1f3a9300-e363-11e8-85f6-76ab0dbbc9b0.png">

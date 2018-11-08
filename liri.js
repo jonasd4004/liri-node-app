@@ -77,14 +77,23 @@ function movieThis() {
     request(queryURL, function (err, response, body){
         var movieInfo = JSON.parse(body);
         // console.log(body);
-        console.log(movieInfo.Title);
-        console.log(movieInfo.Year);
-        console.log(movieInfo.imdbRating);
-        console.log(movieInfo.Country);
-        console.log(movieInfo.Language);
-        console.log(movieInfo.Plot);
-        console.log(movieInfo.Actors);
-    })
+        console.log("Title: " + movieInfo.Title);
+        console.log("Year: " + movieInfo.Year);
+        console.log("IMDB Rating: " +movieInfo.imdbRating);
+        console.log("Country: " + movieInfo.Country);
+        console.log("Language: " + movieInfo.Language);
+        console.log("Plot: " + movieInfo.Plot);
+        console.log("Actors: " + movieInfo.Actors);
+        
+        for(var i = 0; i < JSON.parse(body).Ratings.length; i++) {
+	    	if(JSON.parse(body).Ratings[i].Source === "Rotten Tomatoes") {
+	    		console.log("* Rotten Tomatoes Rating:     " + JSON.parse(body).Ratings[i].Value);
+	    		if(JSON.parse(body).Ratings[i].Website !== undefined) {
+	    			console.log("* Rotten Tomatoes URL:        " + JSON.parse(body).Ratings[i].Website);
+	    		}
+	    	}
+	    }
+    });
     console.log("MOVIE THIS: ");
 }
 
